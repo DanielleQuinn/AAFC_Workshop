@@ -7,6 +7,7 @@ rm(list = ls())
 
 # ---- Load packages ----
 library(dplyr)
+library(lubridate)
 
 # Note: If an error is produced saying there is no such package
 # it means you need to install the package using install.packages()
