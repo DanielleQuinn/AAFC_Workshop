@@ -7,7 +7,7 @@ library(tidyr)
 library(ggplot2)
 
 # ---- Source Functions ----
-source("more_functions.R")
+source("supplemental_code/dispersion.R")
 
 # ---- Import Data ----
 dragonflies <- read.csv("new_dragonflies.csv")
