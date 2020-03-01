@@ -26,3 +26,4 @@ This repository contains information and materials for the "Analytical Technique
 `install.packages("corrplot")`  
 `install.packages("vegan")`  
 `install.packages("MASS")`  
+`install.packages("Ecdat")`
