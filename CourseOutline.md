@@ -10,9 +10,19 @@ Associated Files:
 - `introduction_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `introduction.R` includes notes and code  
 
-### Module 2: Data Wrangling  
+### Module 2: Best Practices of Tidy Data  
 Learning Objectives:  
 - List characteristics of 'tidy data'  
+- Store data in universal file formats  
+- Evaluate flat files for tidiness  
+- Identify data classes  
+- Describe best practices of dealing with missing data  
+
+Associated Files:  
+- TBA  
+
+### Module 3: Data Wrangling  
+Learning Objectives:  
 - Apply {dplyr} functions to subset data frames  
 - Apply {dplyr} functions to modify data frames  
 - Recognize {dplyr} pipeline syntax  
@@ -22,7 +32,7 @@ Associated Files:
 - `datawrangling_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `datawrangling.R` includes notes and code  
 
-### Module 3: Data Visualization  
+### Module 4: Data Visualization  
 Learning Objectives:  
 - Describe the layered grammar of graphics  
 - Recognize {ggplot2} syntax and functions  
@@ -34,7 +44,7 @@ Associated Files:
 - `datavisualization.R` includes notes and code  
 - `visualization.PNG` is a plot that will be used during an exercise in this module  
 
-### Module 4: Practical Statistics and A/B Testing  
+### Module 5: Practical Statistics and A/B Testing  
 Learning Objectives:  
 - Implement different experimental design plans using R  
 - TBA  
@@ -42,7 +52,7 @@ Learning Objectives:
 Associated Files:  
 - TBA  
 
-### Module 5: Introduction to Regression  
+### Module 6: Introduction to Regression  
 Learning Objectives:  
 - TBA  
 
@@ -50,7 +60,7 @@ Associated Files:
 - `regression_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `regression.R` includes notes and code  
 
-### Module 6: Generalized Linear Models  
+### Module 7: Generalized Linear Models  
 Learning Objectives:  
 - TBA  
 
