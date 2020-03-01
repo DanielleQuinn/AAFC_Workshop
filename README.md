@@ -1,6 +1,6 @@
 # Analytical Techniques in R  
 
-This repository contains information and materials for the "Analytical Techniques in R" course offered by Danielle Quinn for Agriculture and Agri-Food Canada in St. John's, Newfoundland on 18 - 20 March 2020.
+This repository contains information and materials for the "Analytical Techniques in R" course offered by Danielle Quinn for Agriculture and Agri-Food Canada in St. John's, Newfoundland on 18 - 20 March 2020. This course is modular; a description of each module can be found [here](https://github.com/DanielleQuinn/AAFC_Workshop/).
 
 ### Set Up Instructions  
 
