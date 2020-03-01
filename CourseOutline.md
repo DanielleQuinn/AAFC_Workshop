@@ -33,3 +33,26 @@ Associated Files:
 - `datavisualization_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `datavisualization.R` includes notes and code  
 - `visualization.PNG` is a plot that will be used during an exercise in this module  
+
+### Module 4: Practical Statistics and A/B Testing  
+Learning Objectives:  
+- TBA  
+
+Associated Files:  
+- TBA  
+
+### Module 5: Introduction to Regression  
+Learning Objectives:  
+- TBA  
+
+Associated Files:  
+- `regression_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
+- `regression.R` includes notes and code  
+
+### Module 6: Generalized Linear Models  
+Learning Objectives:  
+- TBA  
+
+Associated Files:  
+- `glms_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
+- `glms.R` includes notes and code  
