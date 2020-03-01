@@ -36,6 +36,7 @@ Associated Files:
 
 ### Module 4: Practical Statistics and A/B Testing  
 Learning Objectives:  
+- Implement different experimental design plans using R  
 - TBA  
 
 Associated Files:  
