@@ -7,8 +7,8 @@ Learning Objectives:
 - Demonstrate best practices of organizing code  
 
 Associated Files:  
-- *introduction_BLANK.R* includes an outline and can be used to code along with the instructor (recommended)  
-- *introduction.R* includes notes and code  
+- `introduction_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
+- `introduction.R` includes notes and code  
 
 ### Module 2: Data Wrangling  
 Learning Objectives:  
@@ -19,8 +19,8 @@ Learning Objectives:
 - Create customized data summary tables  
 
 Associated Files:  
-- *datawrangling_BLANK.R* includes an outline and can be used to code along with the instructor (recommended)  
-- *datawrangling.R* includes notes and code  
+- `datawrangling_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
+- `datawrangling.R` includes notes and code  
 
 ### Module 3: Data Visualization  
 Learning Objectives:  
@@ -30,6 +30,6 @@ Learning Objectives:
 - Experiment with {ggplot2} layers using online resources  
 
 Associated Files:  
-- *datavisualization_BLANK.R* includes an outline and can be used to code along with the instructor (recommended)  
-- *datavisualization.R* includes notes and code  
-- *visualization.PNG* is a plot that will be used during an exercise in this module  
+- `datavisualization_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
+- `datavisualization.R` includes notes and code  
+- `visualization.PNG` is a plot that will be used during an exercise in this module  
