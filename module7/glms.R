@@ -10,7 +10,7 @@ library(ggplot2)
 source("supplemental_code/dispersion.R")
 
 # ---- Import Data ----
-dragonflies <- read.csv("new_dragonflies.csv")
+dragonflies <- read.csv("dragonflies.csv")
 
 # ---- Explore Data ----
 head(dragonflies)
