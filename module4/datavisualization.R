@@ -1,3 +1,5 @@
+# Please note: this module depends on results from Module 3 being available in your environment
+
 # ---- Load packages ----
 library(ggplot2)
 library(dplyr)
