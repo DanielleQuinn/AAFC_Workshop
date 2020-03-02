@@ -103,48 +103,48 @@ plot3 + facet_wrap(~habitat, ncol = 1)
 # data preparation:
 # (1) subset table1 to only include samples from pools
 
-# creating the plot:
+# Components of the plot:
 # (1) Scatterplot with year on x axis and mean on y axis
-# (2) X axis label is Year
-# (3) Y axis label is Mean Number Caught
+# (2) X axis label is "Year"
+# (3) Y axis label is "Mean Number Caught"
 # (4) Theme is black and white
 # (5) Point colour is based on site
-# (6) NEW! Points are triangles
-
+# (6) Points are triangles
 # (7) Facet your plot based on site using facet_wrap
 # (8) Stack all facets into one column
-# (9) NEW! Draw a line connecting the points
+# (9) Draw a line connecting the points
   ## Hint: geom_line()
-# (10) NEW! Draw a dashed line represented the maximum number captured per year
+# (10) Draw a dashed line represented the maximum number captured per year
   ## Hint: Just like col and shape, there is an argument called linetype
 # (11) Draw a dashed line representing the minumum number captured per year
-# (12) NEW! Allow the y axis limits to be based only on the points within them
+# (12) Allow the y axis limits to be based only on the points within them
   ## Hint: Look at R Cookbook ggplot2 under "Facets"
-# (13) NEW! Specificy the colors to be used as red, blue, purple, orange, and black
+# (13) Specificy the colors to be used as red, blue, purple, orange, and black
   ## Hint: Look at R Cookbook ggplot2 under "Colors" > "Palettes Manually Defined"
-# (14) NEW! Name the lengend SITE ID
+# (14) Name the lengend "Site ID"
   ## Hint: You can specify this in the name argument of the function used in step (13) 
-# (16) NEW! Add a title: "Mean number of Central Stonerollers captured in pools between 2000 and 2015"
+# (16) Add a title: "Central Stonerollers in Pools (1999 - 2012)"
   ## Hint: ggtitle()
 # (17) Store your finished plot in an object called myfigure
-# (18) NEW! Save your plot to your working directory!
+# (18) Save your plot to your working directory
   ## Hint: ggsave()
+  ## Bonus: Make the plot 7 inches wide and 9 inches high
 
 # Solution:
-myfigure <- ggplot(table1 %>% filter(habitat == "pool")) +
+myfigure <- ggplot(table1 %>% filter(habitat == "pool", between(year, 1999, 2012)) +
   geom_point(aes(x = year, y = mean, col = site), size = 4, shape = "triangle") + 
   geom_line(aes(x = year, y = mean, col = site)) +
   geom_line(aes(x = year, y = maximum, col = site), linetype = "dashed") +
   geom_line(aes(x = year, y = minimum, col = site), linetype = "dashed") +
   xlab("Year") +
   ylab("Mean Number Captured") + 
-  theme_bw(12) +
+  theme_bw() +
   facet_wrap(~site, ncol = 1, scales = "free_y") +
   scale_color_manual(values = c("red", "blue", "purple", "orange", "black"),
-                     name = "SITE ID") +
-  ggtitle("Mean number of Central Stonerollers captured in pools between 2000 and 2015")
+                     name = "Site ID") +
+  ggtitle("Central Stonerollers in Pools (1999 - 2012)")
 
 myfigure
 
 # Saving plots to your current working directory
-ggsave("myfigure.png", myfigure)
+ggsave("myfigure.png", myfigure, width = 7, height = 9)
