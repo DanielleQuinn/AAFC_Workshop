@@ -101,7 +101,7 @@ plot3 + facet_wrap(~habitat, ncol = 1)
 # We haven't seen all of these yet!
 
 # data preparation:
-# (1) subset table1 to only include samples from pools
+# (1) subset table1 to only include samples from pools and only years 1999 - 2012
 
 # Components of the plot:
 # (1) Scatterplot with year on x axis and mean on y axis
