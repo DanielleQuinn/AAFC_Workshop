@@ -91,7 +91,7 @@ plot3 + facet_wrap(~habitat, ncol = 1)
 
 # ---- Capstone {ggplot2} Exercise ----
 # Reproduce the plot found here:
-# https://github.com/DanielleQuinn/OTN_workshop/blob/master/GapMinderReport.pdf
+# https://github.com/DanielleQuinn/AAFC_Workshop/blob/master/module4/visualization.png
 
 # Tip: Make a list of what needs to be done and tackle ONE thing at a time.
 
