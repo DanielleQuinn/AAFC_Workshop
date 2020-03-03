@@ -32,6 +32,7 @@ Learning Objectives:
 Associated Files:  
 - `datawrangling_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `datawrangling.R` includes notes and code  
+- `fish.csv`
 
 ### Module 4: Data Visualization  
 Learning Objectives:  
@@ -60,7 +61,6 @@ Learning Objectives:
 Associated Files:  
 - `regression_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `regression.R` includes notes and code  
-- `fish.csv`  
 
 ### Module 7: Generalized Linear Models  
 Learning Objectives:  
