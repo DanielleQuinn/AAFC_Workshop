@@ -19,7 +19,8 @@ Learning Objectives:
 - Describe best practices of dealing with missing data  
 
 Associated Files:  
-- TBA  
+- `messy.xlsx` a spreadsheet that demonstrates poor practices of data entry and storage
+- `clean.xlsx` a spreadsheet that demonstrates best practices of data entry and storage
 
 ### Module 3: Data Wrangling  
 Learning Objectives:  
@@ -67,3 +68,4 @@ Learning Objectives:
 Associated Files:  
 - `glms_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `glms.R` includes notes and code  
+- `dragonflies`.csv` 
