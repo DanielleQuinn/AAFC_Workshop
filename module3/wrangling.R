@@ -20,7 +20,7 @@ getwd()
 list.files()
 
 # 3. Import the data
-data <- read.csv("KingsCreekFishSurveys.csv")
+data <- read.csv("fish.csv")
 
 # ---- Exploring Data Frames ----
 View(data) # View data in a new tab
