@@ -69,4 +69,4 @@ Learning Objectives:
 Associated Files:  
 - `glms_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
 - `glms.R` includes notes and code  
-- `dragonflies`.csv`  
+- `dragonflies.csv`  
