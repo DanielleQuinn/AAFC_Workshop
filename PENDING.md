@@ -2,12 +2,11 @@
 - complete  
 
 ### Module 2  
-- links to online Tidy Data resources  
-- clarify activities and discussion prompts  
+- add discussion prompt document 
 
 ### Module 3  
 - complete  
-- check timing; consider adding {tidyr} component  
+- check timing; consider adding {tidyr} component if time allows   
 
 ### Module 4  
 - complete  
@@ -16,15 +15,10 @@
 - finalize code and notes  
 - finalize learning objectives  
 - add required files  
-- check timing; consider adding discussion of exploratory data analysis here  
 
 ### Module 6  
-- add learning objectives  
+- complete  
 
 ### Module 7  
-- add learning objectives  
-
-### Communication  
-- email participants  
-- set up office hours  
-- clarify timing and location  
+- complete 
+- check timing; consider adding logisitc regression component if time allows  
