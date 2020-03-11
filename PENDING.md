@@ -11,7 +11,6 @@
 
 ### Module 4  
 - complete  
-- check timing; consider adding discussion of exploratory data analysis here  
 
 ### Module 5  
 - finalize code and notes  
