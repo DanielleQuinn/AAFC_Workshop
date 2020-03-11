@@ -55,7 +55,12 @@ Associated Files:
 
 ### Module 6: Introduction to Regression  
 Learning Objectives:  
-- TBA  
+- Apply naive , univariate, and multivariate linear regression in R  
+- Generate predictions both manually and through coding  
+- Evaluate model fit using various metrics  
+- Explore the structure of model objects  
+- Interpret model coefficients based on continuous and categorical predictors  
+- Interpret model coefficients based on independent and interacting predictors  
 
 Associated Files:  
 - `regression_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
@@ -63,7 +68,12 @@ Associated Files:
 
 ### Module 7: Generalized Linear Models  
 Learning Objectives:  
-- TBA  
+- Apply Gaussian, Poisson, and Negative Binomial GLMs  
+- Recognize indicators of poor model fit    
+- Interpret model coefficients and generate predictions  
+- Organize code used to step through modified models of different types  
+- Select and defend an appropriate model  
+- Recognize the utility and limitations of GLMs  
 
 Associated Files:  
 - `glms_BLANK.R` includes an outline and can be used to code along with the instructor (recommended)  
