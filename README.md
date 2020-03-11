@@ -19,11 +19,10 @@ This repository contains information and materials for the "Analytical Technique
 
 5. If you are comfortable doing so, run the following lines of code in RStudio to install the main packages we'll be using during this workshop. *You must be connected to the internet for this to work.* If you need assistance with this, I'll be hosting "office hours" prior to the workshop, and we'll be covering this process in more detail on Day One of the workshop.  
 
-`install.packages("tidyverse")`   
-`install.packages("lubridate")`   
-`install.packages("corrplot")`  
-`install.packages("MASS")`  
-`install.packages("Ecdat")`  
-`install.packages("caTools")`  
-
-
+`install.packages("tidyverse")   # Data wrangling and visualization`  
+`install.packages("lubridate")   # Dates and times`  
+`install.packages("corrplot")  # Correlation`  
+`install.packages("MASS")  # Negative binomial GLMs`  
+`install.packages("Ecdat")  # Built in data set`  
+`install.packages("caTools")  # Testing and training splits`  
+`install.packages("gapminder")  # Built in data set`  
