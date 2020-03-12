@@ -2,7 +2,7 @@
 - complete  
 
 ### Module 2  
-- add discussion prompt document 
+- complete
 
 ### Module 3  
 - complete  
