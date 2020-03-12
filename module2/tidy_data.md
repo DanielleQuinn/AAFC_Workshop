@@ -13,6 +13,21 @@ The four most common problems with messy datasets:
 1. Column headers are values, not variable names.
 2. Multiple variables are stored in one column.
 3. Variables are stored in both rows and columns.
-4. Multiple pieces of information are stored in single cells.  
 
-Extracted and adapted from [Wickham, H. 2014. Tidy data. Journal of Statistical Software 59.](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)  
+Other common problems with messay datasets:  
+- Using multiple tables  
+- Using multiple tabs  
+- Not filling in zeros  
+- Using problematic null values  
+- Using formatting to convey information  
+- Using formatting to make the data sheet look pretty  
+- Placing comments or units in cells  
+- Entering more than one piece of information in a cell  
+- Using problematic field names  
+- Using special characters in data  
+- Inclusion of metadata in data table  
+- Date formatting  
+
+There are a few potential errors to be on the lookout for in your own data as well as data from collaborators or the Internet. If you are aware of the errors and the possible negative effect on downstream data analysis and result interpretation, it might motivate yourself and your project members to try and avoid them. Making small changes to the way you format your data in spreadsheets can have a great impact on efficiency and reliability when it comes to data cleaning and analysis.  
+
+Extracted and adapted from [Wickham, H. 2014. Tidy data. Journal of Statistical Software 59.](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) and [Data Carpentry: Data Organization in Spreadsheets for Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/)  
