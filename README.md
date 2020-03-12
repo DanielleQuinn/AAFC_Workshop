@@ -27,3 +27,4 @@ This repository contains information and materials for the "Analytical Technique
 `install.packages("Ecdat")  # Built in data set`  
 `install.packages("caTools")  # Testing and training splits`  
 `install.packages("gapminder")  # Built in data set`  
+`install.packages("pwr")  # Power analyses`  
