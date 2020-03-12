@@ -1,6 +1,6 @@
 ## Tidy Data  
 
-*"Tidy datasets are all alike, but messy datasets are each messy in their own way." ~ Hadley Wickham"*  
+*"Tidy datasets are all alike, but messy datasets are each messy in their own way." ~ Hadley Wickham*  
 
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is  
 messy or tidy depending on how rows, columns and tables are matched up with observations,  
