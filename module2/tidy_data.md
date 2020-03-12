@@ -9,10 +9,10 @@ variables and types. In tidy data:
 2. Each observation forms a row.  
 3. Each cell contains exactly one piece of information.  
 
-The four most common problems with messy datasets:  
-1. Column headers are values, not variable names.
-2. Multiple variables are stored in one column.
-3. Variables are stored in both rows and columns.
+The three most common problems with messy datasets:  
+- Column headers are values, not variable names.
+- Multiple variables are stored in one column.
+- Variables are stored in both rows and columns.
 
 Other common problems with messay datasets:  
 - Using multiple tables  
