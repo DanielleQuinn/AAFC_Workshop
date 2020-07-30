@@ -36,8 +36,9 @@ rm(list = ls())
 
 # ---- Factors ----
 # Factors are variables that have levels / categories / groups
-# By default, read.csv() treats all strings (characters) as factors
 
+
+# Change these columns to factors
 
 
 # Goal: What are the levels of habitat?
