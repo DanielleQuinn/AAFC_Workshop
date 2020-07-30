@@ -39,7 +39,13 @@ glimpse(data) # Display the structure of the object using {dplyr}
 
 # ---- Factors ----
 # Factors are variables that have levels / categories / groups
-# By default, read.csv() treats all strings (characters) as factors
+class(data$habitat)
+class(data$site)
+
+# Change these columns to factors
+data$habitat <- as.factor(data$habitat)
+data$site <- as.factor(data$site)
+
 class(data$habitat)
 class(data$site)
 
