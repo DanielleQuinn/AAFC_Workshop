@@ -1,60 +1,13 @@
-# ---- Clear Environment ----
-rm(list = ls())
-
-# ---- Clear Console ----
-# Windows: Ctrl-L
-# Mac: Cmd-L
-
-# ---- Load packages ----
-library(dplyr)
+# ---- Load Libraries ----
 library(lubridate)
-
-# Note: If an error is produced saying there is no such package
-# it means you need to install the package using install.packages()
+library(dplyr)
 
 # ---- Import Data ----
-# 1. Check your working directory
-getwd()
-
-# 2. List files in your working directory
-list.files()
-
-# 3. Import the data
-data <- read.csv("fish.csv")
+data <- read.csv("data/clean_fish.csv")
 
 # ---- Exploring Data Frames ----
 View(data) # View data in a new tab
-
-dim(data) # Number of rows and columns
-nrow(data) # Number of rows
-ncol(data) # Number of columns
-
-head(data) # Display the first six rows
-tail(data) # Display the last six rows
-names(data) # Display the names of each column
-
-summary(data) # Summarise each column
-str(data) # Display the structure of the object
 glimpse(data) # Display the structure of the object using {dplyr}
-
-# ---- Factors ----
-# Factors are variables that have levels / categories / groups
-class(data$habitat)
-class(data$site)
-
-# Change these columns to factors
-data$habitat <- as.factor(data$habitat)
-data$site <- as.factor(data$site)
-
-class(data$habitat)
-class(data$site)
-
-# Goal: What are the levels of habitat?
-levels(data$habitat)
-levels(data$site)
-
-# Goal: What would this column look like if it was treated as a number?
-as.numeric(data$site) # This doesn't change the object unless you overwrite the existing column
 
 # ---- {tidyverse} ----
 # The {tidyverse} is a collection of packages that share an
