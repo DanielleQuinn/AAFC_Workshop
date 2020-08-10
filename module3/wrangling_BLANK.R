@@ -1,50 +1,11 @@
-# ---- Clear Environment ----
-rm(list = ls())
-
-# ---- Clear Console ----
-# Windows: Ctrl-L
-# Mac: Cmmd-L
-
-# ---- Load packages ----
-# Note: If an error is produced saying there is no such package
-# it means you need to install the package using install.packages()
+# ---- Load Libraries ----
+library(lubridate)
+library(dplyr)
 
 # ---- Import Data ----
-# 1. Check your working directory
-
-
-# 2. List files in your working directory
-
-
-# 3. Import the data
 
 
 # ---- Exploring Data Frames ----
-  # View data in a new tab
-
-  # Number of rows and columns
-  # Number of rows
-  # Number of columns
-
-  # Display the first six rows
-  # Display the last six rows
-  # Display the names of each column
-
-  # Summarise each column
-  # Display the structure of the object
-  # Display the structure of the object using {dplyr}
-
-# ---- Factors ----
-# Factors are variables that have levels / categories / groups
-
-
-# Change these columns to factors
-
-
-# Goal: What are the levels of habitat?
-
-
-# Goal: What would this column look like if it was treated as a number?
 
 
 # ---- {tidyverse} ----
