@@ -1,6 +1,7 @@
 # ---- Load Libraries ----
 library(lubridate)
 library(dplyr)
+library(tidyr)
 
 # ---- Import Data ----
 data <- read.csv("data/clean_fish.csv")
@@ -181,11 +182,6 @@ data_tb %>%
   group_by(site) %>%
   summarise(average = mean(count))
 
-# count() : counts occurences
-
-# Goal: How many records at each site?
-data_tb %>%
-  count(site)
 
 # n() : counts occurences in each group using summarise()
 
@@ -265,6 +261,11 @@ data_tb <- data_tb %>%
 glimpse(data_tb)
 
 # ---- Dealing with dates and times with {lubridate} ----
+# Goal: Split the date column into year, month, and day columns
+# tidyr::separate() : turns a single character column into multiple columns
+data_tb <- data_tb %>%
+  separate(date, into = c("year", "month", "day"), sep = "-")
+
 # ymd() : takes a string representing year-month-day and converts it to a date
 test_value <- "1999-11-21"
 test_value
@@ -275,7 +276,7 @@ test_date
 class(test_date)
 
 # Goal: Combine year, month, and day into a format that can be 
-# converted to a date
+# converted to a date using the individual columns
 data_tb <- data_tb %>%
   mutate(date = ymd(paste(year, month, day, sep = "-")))
 
