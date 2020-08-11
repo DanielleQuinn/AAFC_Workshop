@@ -1,6 +1,7 @@
 # ---- Load Libraries ----
 library(lubridate)
 library(dplyr)
+library(tidyr)
 
 # ---- Import Data ----
 
@@ -139,17 +140,10 @@ data_tb %>%
 # Goal: What was the average number of Creek Chub captured at each site?
 
 
-# count() : counts occurences
-
-# Goal: How many records at each site?
-
 
 # n() : counts occurences in each group using summarise()
 
 # Goal: How many records at each site?
-
-
-## When might you use count() vs summarise(n())?
 
 
 
@@ -195,11 +189,15 @@ data_tb %>%
 
 
 # ---- Dealing with dates and times with {lubridate} ----
+# Goal: Split the date column into year, month, and day columns
+# tidyr::separate() : turns a single character column into multiple columns
+
+
 # ymd() : takes a string representing year-month-day and converts it to a date
 
 
 # Goal: Combine year, month, and day into a format that can be 
-# converted to a date
+# converted to a date using the individual columns
 
 
 # ---- Capstone {dplyr} Exercise ----
