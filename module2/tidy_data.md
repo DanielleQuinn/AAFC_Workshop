@@ -14,7 +14,7 @@ The three most common problems with messy datasets:
 - Multiple variables are stored in one column.
 - Variables are stored in both rows and columns.
 
-Other common problems with messay datasets:  
+Other common problems with messy datasets:  
 - Using multiple tables  
 - Using multiple tabs  
 - Not filling in zeros  
